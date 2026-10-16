@@ -8,6 +8,7 @@ set signcolumn=no
 set nu
 set hls
 set ic
+set mouse=a
 
 " Use two spaces for indentation in user-specific settings.
 set expandtab
