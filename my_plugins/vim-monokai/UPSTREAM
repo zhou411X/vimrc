@@ -1,0 +1,6 @@
+Repository: https://github.com/crusoexia/vim-monokai
+Commit: ccaaf4bf983e828e46d47288d0278316486d718b
+Files: colors/monokai.vim, LICENSE
+License: MIT
+Local changes: trailing whitespace and extra blank lines at EOF removed.
+Local changes: permit truecolor terminals even when t_Co is below 256.

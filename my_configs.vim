@@ -1,8 +1,28 @@
 " Colorscheme
+if has('termguicolors')
+  set termguicolors
+endif
+
 set background=dark
-"set background=light
-colorscheme peaksea
-colorscheme papercolor
+set background=light
+"set notermguicolors
+"let g:solarized_termcolors = 256
+"colorscheme solarized
+"colorscheme peaksea
+"colorscheme papercolor
+"colorscheme gruvbox
+"colorscheme TokyoNight
+"colorscheme TokyoNightStorm
+"colorscheme NightOwlNoItalics
+"colorscheme FaultySchematics
+"colorscheme DragonBeige
+"colorscheme ClawBeige
+"colorscheme Breadog
+"colorscheme RetroTheme
+"colorscheme Ayu
+"colorscheme AyuMirage
+colorscheme monokai
+"colorscheme VintageLight
 
 set signcolumn=no
 set nu
@@ -18,6 +38,9 @@ set softtabstop=2
 
 " Disable automatic insertion of matching brackets and quotes.
 let g:AutoPairs = {}
+" Keep native backspace behavior, including on Vim comment-only lines.
+let g:AutoPairsMapBS = 0
+let g:AutoPairsMapCh = 0
 
  " C/C++ 括号内换行时，与左括号后的第一个字符对齐。
  autocmd FileType c,cpp setlocal cinoptions+=(0

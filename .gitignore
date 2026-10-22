@@ -4,7 +4,11 @@ temp_dirs/yankring_history_v2.txt
 sources_forked/yankring/doc/tags
 sources_non_forked/tlib/doc/tags
 sources_non_forked/ctrlp.vim/doc/tags*
-my_plugins/
+my_plugins/*
+!my_plugins/custom-themes/
+!my_plugins/vim-monokai/
+# Installed locally; its upstream license does not permit redistribution.
+my_plugins/custom-themes/colors/MonokaiClassic.vim
 my_configs.vim
 tags
 .DS_Store
