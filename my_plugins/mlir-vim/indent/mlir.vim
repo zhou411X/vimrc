@@ -7,7 +7,7 @@ endif
 let b:did_indent = 1
 
 setlocal expandtab shiftwidth=2 softtabstop=2
-setlocal indentkeys=0{,0},0),0],<:>,!^F,o,O,e
+setlocal indentkeys=0{,0},0),0],!^F,o,O,e
 setlocal indentexpr=GetMLIRIndent()
 
 let b:undo_indent = 'setlocal expandtab< shiftwidth< softtabstop< indentkeys< indentexpr<'
