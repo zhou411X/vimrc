@@ -4,12 +4,12 @@ if has('termguicolors')
 endif
 
 set background=dark
-set background=light
+"set background=light
 "set notermguicolors
 "let g:solarized_termcolors = 256
 "colorscheme solarized
 "colorscheme peaksea
-"colorscheme papercolor
+colorscheme papercolor
 "colorscheme gruvbox
 "colorscheme TokyoNight
 "colorscheme TokyoNightStorm
@@ -21,7 +21,7 @@ set background=light
 "colorscheme RetroTheme
 "colorscheme Ayu
 "colorscheme AyuMirage
-colorscheme monokai
+"colorscheme monokai
 "colorscheme VintageLight
 
 set signcolumn=no
